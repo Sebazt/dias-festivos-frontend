@@ -1,0 +1,32 @@
+h1{
+  text-align: center;
+}
+.card {
+  border: 1px solid #aedcf5;
+  margin: 10px;
+  padding: 10px;
+  width: 200px;
+  display: inline-block;
+  background-color: #d6ecf5;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: #b3d9f2;
+  }
+
+  .card-body {
+    text-align: center;
+
+    .card-title {
+      font-size: 18px;
+      color: #214e7c;
+    }
+
+    .card-text {
+      font-size: 14px;
+      color: #427fad;
+    }
+  }
+}
